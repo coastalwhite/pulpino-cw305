@@ -21,7 +21,8 @@ the Arty A7-100T board variant. Steps are outlined below.
 
 1. Clone `https://github.com/pulp-platform/pulpino.git`
 2. `cd pulpino`
-3. `source environment.sh` from this repository
+3. `source environment.sh` from this repository. Adjust `/opt/Xilinx` for the
+   location of your Xilinx Vivado installation.
 4. `./update-ips.py` with python2 installed as the default python toolchain
 5. Replace `fpga/pulpino/constraints.xdc` with the `constraints.xdc` from this
    repository.
