@@ -275,9 +275,6 @@ module pulpino(
 
     .pad_cfg_o         (                   ),
     .pad_mux_o         (                   ),
-    
-    .boot_sel_0        (boot_sel_0),
-    .boot_sel_1        (boot_sel_1)
   );
 
 endmodule
