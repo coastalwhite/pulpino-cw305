@@ -274,7 +274,7 @@ module pulpino(
     .tdo_o             ( tdo_o             ),
 
     .pad_cfg_o         (                   ),
-    .pad_mux_o         (                   ),
+    .pad_mux_o         (                   )
   );
 
 endmodule
